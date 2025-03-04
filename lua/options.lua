@@ -12,6 +12,10 @@ vim.opt.relativenumber = true
 -- Column indicator
 vim.o.colorcolumn = '80'
 
+-- Spell check enabled
+vim.o.spell = true
+vim.o.spelllang = 'en_us'
+
 -- No text wrapping
 vim.o.wrap = false
 
