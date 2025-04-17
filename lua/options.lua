@@ -7,7 +7,17 @@
 vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.o.relativenumber = true
+vim.opt.relativenumber = true
+
+-- Column indicator
+vim.o.colorcolumn = '80'
+
+-- Spell check enabled
+vim.o.spell = true
+vim.o.spelllang = 'en_us'
+
+-- No text wrapping
+vim.o.wrap = false
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
